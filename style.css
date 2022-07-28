@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.red{
+    background: rgb(124, 60, 241);
+    color: antiquewhite;
+    height: 50px;
+}
+
+.blue{
+    background: blue;
+    color: aquamarine;
+}

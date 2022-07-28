@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration Form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: url(formbg.jpg) no-repeat;
+            background-size: cover;
+            color: white;
+            font-family:monospace;
+        }
+        .reg-form{
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: auto;
+            padding: 80px;
+            
+        }
+        .reg-form>h1{
+            font-size: 40px;
+            text-align: center;
+            margin: 40px;
+        }
+        .reg-form p{
+            font-size: 20px;
+            margin: 15px 0;
+        }
+        .reg-form input{
+            font-size: 15px;
+            padding: 15px 10px;
+            width: 100%;
+            border: 0;
+            border-radius: 5px;
+            outline: none;
+        }
+        .reg-form button{
+            font-size: 15px;
+            font-weight: bold;
+            margin: 20px 0;
+            padding: 10px 15px;
+            border-radius: 5px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .reg-form button:hover{
+            color: red;
+        }
+    </style>
+</head>
+<body>  
+    <div class="reg-form">
+        <h1>Registeration Form</h1>
+        <form action="form.php">
+            <p>Full name:</p>
+            <input type="text" name="fullname" placeholder="Full name">
+            <p>Last name:</p>
+            <input type="email" name="lastname" placeholder="Last name">
+            <p>Email:</p>
+            <input type="text" name="email" placeholder="Email">
+            <p>Password:</p>
+            <input type="text" name="password" placeholder="Password">
+            <button type="submit">Submit</button>
+            
+        </form>
+    </div>
+</body>
+</html>

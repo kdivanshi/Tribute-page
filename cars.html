@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AllAboutCars</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .bg {
+            background-image: url(bg.jpg);
+            display: flex;
+            height: 1000px;
+            width: 100%;
+            background-position: center;
+            background-size: cover;
+            justify-content: space-around;
+        }
+
+        .left {
+            width: 230px;
+            background-color: black;
+            opacity: 0.3;
+            color: blanchedalmond;
+        }
+
+        .right {
+            width: 230px;
+            /* border-left: 1px solid #eee; */
+            background-color: black;
+            opacity: 0.3;
+            color: white;
+        }
+
+        .center {
+            /* border-left: 1px solid #eee; */
+            background-color: black;
+            opacity: 0.3;
+            color: white;
+        }
+
+
+        .logo {
+            display: inline-block;
+        }
+
+        .nav-items {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            font-family: cursive;
+        }
+
+        .nav-item a {
+            display: inline-block;
+            padding: 10px 15px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .nav-item:hover {
+            background-color: white;
+        }
+
+        .nav-item:hover a {
+            color: blue;
+        }
+
+        .logo img {
+            width: 100px;
+            height: 100px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <a href="https://google.com" class="logo">
+            <img src="logo.jpg" alt="image">
+        </a>
+        <ul class="nav-items">
+            <li class="nav-item"><a href="#">Home</a></li>
+            <li class="nav-item"><a href="#">Contact us</a></li>
+            <li class="nav-item"><a href="#">About us</a></li>
+            <li class="nav-item"><a href="#">Sign in</a></li>
+            <a href="https://google.com"><img style="transform: scaleX(-1);" src="logo.jpg" alt="image" height="100px"
+                    width="100px"></a>
+        </ul>
+    </div>
+    <div class="bg">
+        <div class="left">
+            <center>
+                <table width="200" border="1" height="1000" bgcolor="white">
+                    <tr>
+                        
+                    </tr>
+                </table>
+
+            </center>
+        </div>
+        <div class="center">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sequi necessitatibus consequatur officia
+                incidunt illo excepturi tenetur quibusdam quaerat esse!</p>
+        </div>
+        <div class="right">
+            <center>
+                <table width="200" border="1" height="1000" bgcolor="white"></table>
+            </center>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
